@@ -1,0 +1,10 @@
+# Treat Java files as the primary language
+*.java linguist-detectable=true
+
+# Ignore JavaScript files for language statistics
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+
+# Optionally, ignore the React build folder and node_modules
+/build/* linguist-vendored
+/node_modules/* linguist-vendored
